@@ -1,0 +1,57 @@
+::selection {
+  background-color: crimson; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+body {
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  line-height: 1.7; }
+
+.logo {
+  padding: 30px;
+  background: #ffffff;
+  position: fixed;
+  margin: 20px 30px;
+  left: 0;
+  border-radius: 50%; }
+
+nav {
+  padding: 30px;
+  background: gray;
+  position: fixed;
+  margin: 20px 30px;
+  right: 0; }
+
+.cover {
+  display: flex;
+  height: 100vh;
+  background: #e3d5d3;
+  align-items: center;
+  justify-content: center; }
+
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.box {
+  min-width: 450px;
+  flex: 1;
+  padding: 150px 15px; }
+
+.ceramah {
+  background: yellow; }
+
+.tanya {
+  background: green; }
+
+.motivasi {
+  background: gray; }
+
+.cerita {
+  background: black; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+::selection {
+  background-color: crimson; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+body {
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  line-height: 1.7; }
+
+.logo {
+  padding: 30px;
+  background: #ffffff;
+  position: fixed;
+  margin: 20px 30px;
+  left: 0;
+  border-radius: 50%; }
+
+nav {
+  padding: 30px;
+  background: gray;
+  position: fixed;
+  margin: 20px 30px;
+  right: 0; }
+
+.banner {
+  background: #a34b4d;
+  width: 100vw;
+  background-image: url("/img/art.jpg");
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+  .banner .judul {
+    background: white;
+    padding: 25px 30%; }
+
+/*# sourceMappingURL=layout.css.map */
